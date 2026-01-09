@@ -11,24 +11,33 @@ The designs were created to the following widths:
 
 ## Colors
 
-- Purple 100: hsl(254, 88%, 90%)
-- Purple 500: hsl(256, 67%, 59%)
+### Primary
 
-- Yellow 100: hsl(31, 66%, 93%)
-- Yellow 500: hsl(39, 100%, 71%)
+- Green 500: hsl(171, 66%, 44%)
+- Blue 100: hsl(233, 100%, 69%)
 
-- White: hsl(0, 0%, 100%)
-- Black: hsl(0, 0%, 7%)
+### Neutral
+
+- Gray 700: hsl(210, 10%, 33%)
+- Gray 500: hsl(201, 11%, 66%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraph): 18px
+- Font size: 18px
 
-### Font
+### Fonts
 
-- Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
-- Weights: 400, 500
+- Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
+- Weights: 400, 600
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. The design file for this challenge also includes a design system and tablet layout to help you build a more accurate solution faster.
+## Icons
+
+For the social icons, you can use the SVGs provided or a font icon library. Some font icon library suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
+
+> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
