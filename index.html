@@ -1,87 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bento Grid</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bento Grid</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+     <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body class="bg-neutral-100 min-h-screen flex items-center justify-center p-6">
-
-  <section class="grid grid-cols-1 md:grid-cols-12 gap-6 max-w-7xl w-full">
-
-    <!-- Card 1: Hero -->
-    <div class="md:col-span-6 bg-purple-500 text-white rounded-3xl p-8 flex flex-col justify-between">
-      <div>
-        <h1 class="text-3xl md:text-4xl font-bold leading-tight">
-          Social Media <span class="text-yellow-300">10x</span><br />
-          Faster with AI
+  <body>
+    <section class="bento-grid">
+      <div class="card hero">
+        <h1>
+          Social Media <span>10x</span><br />
+          <i>Faster</i> with AI
         </h1>
-        <div class="mt-4">⭐⭐⭐⭐⭐</div>
+        <div><img class="stars" src="./assets/images/illustration-five-stars.webp" /></div>
+        <p>Over 4,000 5-star reviews</p>
       </div>
-      <p class="text-sm opacity-90">Over 4,000 5-star reviews</p>
-    </div>
 
-    <!-- Card 2 -->
-    <div class="md:col-span-3 bg-lavender-200 rounded-3xl p-6">
-      <h2 class="font-semibold text-lg">Schedule to social media.</h2>
-      <img />
-      <p class="text-sm mt-4 text-neutral-700">
-        Optimize post timings to publish content at the perfect time.
-      </p>
-    </div>
+      <div class="card schedule">
+        <h2>Schedule to social media.</h2>
+        <div><img class="schedule-pic" src="./assets/images/illustration-schedule-posts.webp" /></div>
+        <p>Optimize post timings to publish content at the perfect time.</p>
+      </div>
 
-    <!-- Card 3 -->
-    <div class="md:col-span-3 bg-yellow-200 rounded-3xl p-6 flex flex-col justify-between">
-      <p class="font-semibold text-lg">
-        Create and schedule content quicker.
-      </p>
-      <button class="mt-6 bg-yellow-400 rounded-full px-4 py-2 text-sm font-medium w-fit">
-        Create Post →
-      </button>
-    </div>
+      <div class="card create">
+        <p>Create and schedule content <i>quicker.</i></p>
+        <div><img class="button" src="./assets/images/illustration-create-post.webp" /></div>
+      </div>
 
-    <!-- Card 4 -->
-    <div class="md:col-span-3 bg-yellow-300 rounded-3xl p-6">
-      <p class="font-semibold text-lg">Write your content using AI.</p>
-      <img />
-    </div>
+      <div class="card write">
+        <p>Write your content using AI.</p>
+        <div><img class="ai-pic" src="./assets/images/illustration-ai-content.webp" /></div>
+      </div>
 
-    <!-- Card 5 -->
-    <div class="md:col-span-3 bg-white rounded-3xl p-6">
-      <p class="font-semibold text-lg">
-        Manage multiple accounts and platforms.
-      </p>
-      <img />
-    </div>
+      <div class="card manage">
+        <img class="manage-pic" src="./assets/images/illustration-multiple-platforms.webp" />
+        <p>Manage multiple accounts and platforms.</p>
+      </div>
 
-    <!-- Card 6 -->
-    <div class="md:col-span-3 bg-yellow-200 rounded-3xl p-6">
-      <p class="font-semibold text-lg">
-        Maintain a consistent posting schedule.
-      </p>
-      <img />
-    </div>
+      <div class="card maintain">
+        <p>Maintain a consistent posting schedule.</p>
+        <div><img class="maintain-pic" src="./assets/images/illustration-consistent-schedule.webp" /></div>
+      </div>
 
-    <!-- Card 7 -->
-    <div class="md:col-span-3 bg-white rounded-3xl p-6 text-center">
-      <p class="text-3xl font-bold">&gt;56%</p>
-      <p class="text-sm text-neutral-600">
-        faster audience growth
-      </p>
-      <img />
-    </div>
+      <div class="card growth">
+        <p class="percent">&gt;56%</p>
+        <p>faster audience growth</p>
+        <div><img class="growth-pic" src="./assets/images/illustration-audience-growth.webp" /></div>
+      </div>
 
-    <!-- Card 8 -->
-    <div class="md:col-span-6 bg-purple-500 text-white rounded-3xl p-8 flex flex-col justify-between">
-      <p class="text-2xl font-semibold">
-        Grow followers with non-stop content.
-      </p>
-      <img />
-    </div>
-
-  </section>
-
-</body>
+      <div class="card followers">
+        <p>Grow followers with non-stop content.</p>
+        <div><img class="followers-pic" src="./assets/images/illustration-grow-followers.webp" /></div>
+      </div>
+    </section>
+  </body>
 </html>
